@@ -46,16 +46,10 @@ greyworm-05	ansible_ssh_host=89.163.139.196
 [gateways]
 # Gateways mit oder ohne Direktanbindung FFRL
 # Immer mit Multidomänen-L2TP
-greyworm-06	ansible_ssh_host=89.163.129.14
-remue-08	ansible_ssh_host=148.251.208.175
-des2		ansible_ssh_host=5.9.180.43 
-parad0x		ansible_ssh_host=5.9.67.189		# Direktanbindung FFRL
-barristan	ansible_ssh_host=163.172.131.76		# Direktanbindung FFRL
-c1024		ansible_ssh_host=176.9.88.123		# Direktanbindung FFRL
-fanlin		ansible_ssh_host=89.163.221.125		# Direktanbindung FFRL
-ausrufer	ansible_ssh_host=163.172.211.238	# Direktanbindung FFRL
-rhe		ansible_ssh_host=46.105.252.246		# Direktanbindung FFRL
-des1		ansible_ssh_host=5.9.86.154		# Direktanbindung FFRL
+gw01.freifunk-emscherland.de	ansible_ssh_host=185.46.137.150
+gw02.freifunk-emscherland.de	ansible_ssh_host=5.9.16.220
+
+
 
 [gateways-waf]
 # Domänen 14+15
