@@ -15,27 +15,27 @@ server_ipv4_nat: 185.66.195.6/31 ???
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
 ffrl_tun:
 - name: bera
-  gre_target: 
+  gre_target: 185.66.195.0
   v4_remote: 100.64.7.60/31
   v6_remote: 2a03:2260:0:3c3::1/64
 - name: fra2a
-  gre_target: 
+  gre_target: 185.66.194.0
   v4_remote: 100.64.7.62/31
   v6_remote: 2a03:2260:0:3c4::1/64
 - name: dusa
-  gre_target: 
+  gre_target: 185.66.193.0
   v4_remote: 100.64.7.64/31
   v6_remote: 2a03:2260:0:3c5::1/64
 - name: berb
-  gre_target: 
+  gre_target: 185.66.195.1
   v4_remote: 100.64.7.66/31
   v6_remote: 2a03:2260:0:3c6::1/64
 - name: fra2b
-  gre_target: 
+  gre_target: 185.66.194.1
   v4_remote: 100.64.7.68/31
   v6_remote: 2a03:2260:0:3c7::1/64
 - name: dusb
-  gre_target: 
+  gre_target: 185.66.193.1
   v4_remote: 100.64.7.70/31
   v6_remote: 2a03:2260:0:3c8::1/64
 
