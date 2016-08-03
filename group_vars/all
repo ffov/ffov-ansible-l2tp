@@ -11,7 +11,7 @@ domaenen:
   "02":
     name: Gladbeck/Bottrop
     community: Emscherland
-    ffv4_network: 10.13.128.0/21
+    ffv4_network: 10.13.136.0/21
     ffv6_network: 2a03:2260:200d:200::/64
     map_scale: 0.9
     firmware: domaene02/
@@ -19,7 +19,7 @@ domaenen:
   "03":
     name: Dorsten/Marl  
     community: Emscherland
-    ffv4_network: 10.13.128.0/21
+    ffv4_network: 10.13.144.0/21
     ffv6_network: 2a03:2260:200d:300::/64
     map_scale: 0.9
     firmware: domaene03/
@@ -27,7 +27,7 @@ domaenen:
   "04":
     name: Haltern am See/Raesfeld
     community: Emscherland
-    ffv4_network: 10.13.128.0/21
+    ffv4_network: 10.13.152.0/21
     ffv6_network: 2a03:2260:200d:400::/64
     map_scale: 0.9
     firmware: domaene04/
@@ -35,18 +35,18 @@ domaenen:
   "05":
     name: Reserve
     community: Emscherland
-    ffv4_network: 10.13.128.0/21
+    ffv4_network: 10.13.160.0/21
     ffv6_network: 2a03:2260:200d:500::/64
     map_scale: 0.9
     firmware: domaene05/
 
-  "50":
+  "08":
     name: Spezialprojekte
     community: Emscherland
-    ffv4_network: 10.13.128.0/21
+    ffv4_network: 10.13.184.0/21
     ffv6_network: 2a03:2260:200d:5000::/64
     map_scale: 0.9
-    firmware: domaene50/
+    firmware: domaene08/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
 routing_table: 42
