@@ -80,6 +80,7 @@ ff_network:
 hostname_suffix: ".servers.freifunk-muensterland.de"
 
 administratorenteam:
+  - "tobitx"
   - "parad0x"
   - "fungur"
   - "mpw"
