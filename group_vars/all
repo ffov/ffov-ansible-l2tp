@@ -1,12 +1,52 @@
 # Globale Variablen für alle Server 
 domaenen:
   "01":
-    name: Münster
-    community: Münster
-    ffv4_network: 10.43.8.0/21
-    ffv6_network: 2a03:2260:115:100::/64
+    name: Recklinghausen/Herten
+    community: Emscherland
+    ffv4_network: 10.13.128.0/21
+    ffv6_network: 2a03:2260:200d:100::/64
     map_scale: 0.9
     firmware: domaene01/
+    
+  "02":
+    name: Gladbeck/Bottrop
+    community: Emscherland
+    ffv4_network: 10.13.128.0/21
+    ffv6_network: 2a03:2260:200d:200::/64
+    map_scale: 0.9
+    firmware: domaene02/
+    
+  "03":
+    name: Dorsten/Marl  
+    community: Emscherland
+    ffv4_network: 10.13.128.0/21
+    ffv6_network: 2a03:2260:200d:300::/64
+    map_scale: 0.9
+    firmware: domaene03/
+
+  "04":
+    name: Haltern am See/Raesfeld
+    community: Emscherland
+    ffv4_network: 10.13.128.0/21
+    ffv6_network: 2a03:2260:200d:400::/64
+    map_scale: 0.9
+    firmware: domaene04/
+    
+  "05":
+    name: Reserve
+    community: Emscherland
+    ffv4_network: 10.13.128.0/21
+    ffv6_network: 2a03:2260:200d:500::/64
+    map_scale: 0.9
+    firmware: domaene05/
+
+  "50":
+    name: Spezialprojekte
+    community: Emscherland
+    ffv4_network: 10.13.128.0/21
+    ffv6_network: 2a03:2260:200d:5000::/64
+    map_scale: 0.9
+    firmware: domaene50/
 
 # Nummer der Routing Tabelle, die auf den Servern verwendet wird 
 routing_table: 42
@@ -31,23 +71,19 @@ dhcp_global:
 # Parameter für das eigene Freifunk-Netzwerk
 ff_network:
   # Eindeutige AS-Nummer des Netzwerk
-  as_number: 65251
+  as_number: 65402
   # IPv4 Adressraum
-  v4_network: 10.43.0.0/16
+  v4_network: 10.13.160.0/19
   # IPv6 adressraum
-  v6_network: 2a03:2260:115::/48 
+  v6_network: 2a03:2260:200d::/48
 
 hostname_suffix: ".servers.freifunk-muensterland.de"
 
 administratorenteam:
   - "parad0x"
-  - "void" 
-  - "kgbvax"
-  - "fanlin"
   - "fungur"
-  - "descilla"
   - "mpw"
-  - "paulinsche"
+
 
 collectd:
   collect_dhcp: false
