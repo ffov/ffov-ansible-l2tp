@@ -3,8 +3,8 @@
 
 # ID des Servers. 
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
-vm_id: 
-server_id: 
+vm_id: 3
+server_id: 3
 server_besitzer: "FFRL / oVirt Berlin"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
