@@ -1,47 +1,14 @@
 # Allgemeine Infrastruktur-Server 
 [common]
-buildserver ansible_ssh_host=217.79.181.126 ansible_ssh_port=2215
-monitoring  ansible_ssh_host=178.62.2.100
-services-legacy ansible_ssh_host=217.79.181.126 ansible_ssh_port=2210
-webserver   ansible_ssh_host=89.163.231.227
+buildserver ansible_ssh_host= ansible_ssh_port=
+monitoring  ansible_ssh_host=
 
 # Service-VM für Zentrale Dienste (Karte, Statistik)  
 [services]
-services    ansible_ssh_host=89.163.231.228
+services    ansible_ssh_host=
 
 # Backbone Server 
 [backbone]
-greyworm-07	ansible_ssh_host=89.163.129.16
-
-# Supernode Server 
-[supernodes]
-sn-kgbvax-1	ansible_ssh_host=46.38.239.30
-sn-descilla-1	ansible_ssh_host=5.9.86.154
-
-# Domänen
-[domaene-01]
-remue-01	ansible_ssh_host=148.251.208.170
-greyworm-01     ansible_ssh_host=89.163.247.45
-
-[domaene-02]
-greyworm-02     ansible_ssh_host=89.163.247.46
-remue-05	ansible_ssh_host=148.251.208.172 
-
-[domaene-03]
-remue-02	ansible_ssh_host=148.251.208.171 
-greyworm-03     ansible_ssh_host=89.163.253.62 
-
-[domaene-04]
-greyworm-04     ansible_ssh_host=89.163.253.84
-remue-03	ansible_ssh_host=148.251.208.169 
-
-[domaene-05]
-parad0x-01	ansible_ssh_host=5.9.166.66
-remue-06	ansible_ssh_host=148.251.208.173
-
-[domaene-06]
-remue-04	ansible_ssh_host=148.251.208.168
-greyworm-05	ansible_ssh_host=89.163.139.196
 
 [gateways]
 # Gateways mit oder ohne Direktanbindung FFRL
@@ -49,17 +16,10 @@ greyworm-05	ansible_ssh_host=89.163.139.196
 gw01.freifunk-emscherland.de	ansible_ssh_host=185.46.137.150
 gw02.freifunk-emscherland.de	ansible_ssh_host=5.9.16.220
 
-
-
-[gateways-waf]
-# Domänen 14+15
-ffwaf-srv4	ansible_ssh_host=89.187.208.59
-remue-07	ansible_ssh_host=148.251.208.174
-
 # Sonstige Server
 [firmware]
-firmware	ansible_ssh_host=144.76.30.226 ansible_ssh_port=223
+firmware	ansible_ssh_host= ansible_ssh_port=
 
 #[ffms-arbeitsmittel]
-#ffms-ansible    ansible_ssh_host=148.251.208.168
+#ffms-ansible    ansible_ssh_host=
 
