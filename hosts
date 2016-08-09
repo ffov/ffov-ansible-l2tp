@@ -1,11 +1,11 @@
 # Allgemeine Infrastruktur-Server 
 [common]
-buildserver ansible_ssh_host= ansible_ssh_port=
+buildserver ansible_ssh_host=137.74.232.49
 monitoring  ansible_ssh_host=
 
 # Service-VM für Zentrale Dienste (Karte, Statistik)  
 [services]
-services    ansible_ssh_host=
+services    ansible_ssh_host=137.74.232.48
 
 # Backbone Server 
 [backbone]
@@ -18,7 +18,7 @@ gw02.freifunk-emscherland.de	ansible_ssh_host=5.9.16.220
 
 # Sonstige Server
 [firmware]
-firmware	ansible_ssh_host= ansible_ssh_port=
+firmware	ansible_ssh_host=137.74.232.49
 
 #[ffms-arbeitsmittel]
 #ffms-ansible    ansible_ssh_host=
