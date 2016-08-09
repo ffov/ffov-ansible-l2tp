@@ -13,8 +13,8 @@ services    ansible_ssh_host=137.74.232.48
 [gateways]
 # Gateways mit oder ohne Direktanbindung FFRL
 # Immer mit Multidomänen-L2TP
-gw01.freifunk-emscherland.de	ansible_ssh_host=185.46.137.150
-gw02.freifunk-emscherland.de	ansible_ssh_host=5.9.16.220
+gw01	ansible_ssh_host=185.46.137.150
+gw02	ansible_ssh_host=5.9.16.220
 
 # Sonstige Server
 [firmware]
