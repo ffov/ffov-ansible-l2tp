@@ -9,7 +9,7 @@ server_besitzer: "FFRL / oVirt Berlin"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
-server_ipv4_nat: 185.66.195.6/31 #ist doch die die mir FFRL geschickt hat oder?
+server_ipv4_nat: 185.66.195.7/32 #ist doch die die mir FFRL geschickt hat oder?
     
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
@@ -43,32 +43,32 @@ domaenenliste:
    "01":
       dhcp_start: 10.13.128.1
       dhcp_ende: 10.13.135.254
-      server_id: ??
+      server_id: 3
    "02":
       dhcp_start: 10.13.136.1
       dhcp_ende: 10.13.143.254
-      server_id: ??
+      server_id: 3
    "03":
       dhcp_start: 10.13.144.1
       dhcp_ende: 10.13.151.254
-      server_id: ??
+      server_id: 3
    "04":
       dhcp_start: 10.13.152.1
       dhcp_ende: 10.13.159.254
-      server_id: ??
+      server_id: 3
    "05":
       dhcp_start: 10.13.160.1
       dhcp_ende: 10.13.167.254
-      server_id: ??
+      server_id: 3
    "06":
       dhcp_start: 10.13.168.1
       dhcp_ende: 10.13.175.254
-      server_id: ??
+      server_id: 3
    "07":
       dhcp_start: 10.13.176.1
       dhcp_ende: 10.13.183.254
-      server_id: ??
+      server_id: 3
    "08":
       dhcp_start: 10.13.184.1
       dhcp_ende: 10.13.191.254
-      server_id: ??
+      server_id: 3
