@@ -39,6 +39,22 @@ domaenen:
     ffv6_network: 2a03:2260:200d:500::/64
     map_scale: 0.9
     firmware: domaene05/
+    
+  "06":
+    name: Reserve
+    community: Emscherland
+    ffv4_network: 10.13.168.0/21
+    ffv6_network: 2a03:2260:200d:600::/64
+    map_scale: 0.9
+    firmware: domaene05/
+    
+  "07":
+    name: Reserve
+    community: Emscherland
+    ffv4_network: 10.13.174.0/21
+    ffv6_network: 2a03:2260:200d:700::/64
+    map_scale: 0.9
+    firmware: domaene05/
 
   "08":
     name: Spezialprojekte
