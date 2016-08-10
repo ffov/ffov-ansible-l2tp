@@ -41,34 +41,34 @@ ffrl_tun:
 
 domaenenliste:
    "01":
-      dhcp_start: 10.13.128.1
+      dhcp_start: 10.13.192.1
       dhcp_ende: 10.13.131.255
       server_id: 2
    "02":
-      dhcp_start: 10.13.136.1
+      dhcp_start: 10.13.200.1
       dhcp_ende: 10.13.139.255
       server_id: 2
    "03":
-      dhcp_start: 10.13.144.1
+      dhcp_start: 10.13.208.1
       dhcp_ende: 10.13.147.255
       server_id: 2
    "04":
-      dhcp_start: 10.13.152.1
+      dhcp_start: 10.13.216.1
       dhcp_ende: 10.13.155.255
       server_id: 2
    "05":
-      dhcp_start: 10.13.160.1
+      dhcp_start: 10.13.224.1
       dhcp_ende: 10.13.163.255
       server_id: 2
    "06":
-      dhcp_start: 10.13.168.1
+      dhcp_start: 10.13.232.1
       dhcp_ende: 10.13.171.255
       server_id: 2
    "07":
-      dhcp_start: 10.13.176.1
+      dhcp_start: 10.13.240.1
       dhcp_ende: 10.13.179.255
       server_id: 2
    "08":
-      dhcp_start: 10.13.184.1
+      dhcp_start: 10.13.248.1
       dhcp_ende: 10.13.187.255
       server_id: 2
