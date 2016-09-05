@@ -20,6 +20,6 @@ gw02	ansible_ssh_host=5.9.16.220
 [firmware]
 firmware	ansible_ssh_host=137.74.232.49
 
-#[ffms-arbeitsmittel]
-#ffms-ansible    ansible_ssh_host=
+#[ffel-arbeitsmittel]
+#work    ansible_ssh_host=5.9.16.217
 

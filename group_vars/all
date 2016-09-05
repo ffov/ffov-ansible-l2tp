@@ -117,6 +117,12 @@ bind:
 logrotate:
   cycle: daily
   count: 3
+  
+freifunk:
+  name: "Freifunk Emscherland"
+  kurzname: "ffel"
+  email: info@freifunk-emscherland.de
+  domain: freifunk-emscherland.de
 
 bind_zonemaster:
   server: service.freifunk-emscherland.de
