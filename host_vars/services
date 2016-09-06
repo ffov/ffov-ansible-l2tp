@@ -5,4 +5,4 @@ server_id: 11
 bind:
   ffms_zone_type: master
   ns_name: ns01
-
+  ffms_for_groups:
