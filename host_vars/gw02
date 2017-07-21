@@ -9,35 +9,27 @@ server_besitzer: "TobiTX / vmware Hetzner"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
-server_ipv4_nat: 185.66.195.7/32 #ist doch die die mir FFRL geschickt hat oder?
+server_ipv4_nat: 185.66.195.93/32 #ist doch die die mir FFRL geschickt hat oder?
     
 # GRE-Einstellungen zum Freifunk Rheinland
 # Bei v6 ist die ...::1 remote und die ...::2 lokal
 ffrl_tun:
 - name: bera
   gre_target: 185.66.195.0
-  v4_remote: 100.64.7.72/31
-  v6_remote: 2a03:2260:0:3c9::1/64
-- name: fra2a
-  gre_target: 185.66.194.0
-  v4_remote: 100.64.7.74/31
-  v6_remote: 2a03:2260:0:3ca::1/64
+  v4_remote: 100.64.4.148/31
+  v6_remote: 2a03:2260:0:250::1/64
 - name: dusa
   gre_target: 185.66.193.0
-  v4_remote: 100.64.7.76/31
-  v6_remote: 2a03:2260:0:3cb::1/64
+  v4_remote: 100.64.4.150/31
+  v6_remote: 2a03:2260:0:251::1/64
 - name: berb
   gre_target: 185.66.195.1
-  v4_remote: 100.64.7.78/31
-  v6_remote: 2a03:2260:0:3cc::1/64
-- name: fra2b
-  gre_target: 185.66.194.1
-  v4_remote: 100.64.7.80/31
-  v6_remote: 2a03:2260:0:3cd::1/64
+  v4_remote: 100.64.4.152/31
+  v6_remote: 2a03:2260:0:252::1/64
 - name: dusb
   gre_target: 185.66.193.1
-  v4_remote: 100.64.7.82/31
-  v6_remote: 2a03:2260:0:3ce::1/64
+  v4_remote: 100.64.4.154/31
+  v6_remote: 2a03:2260:0:253::1/64
 
 domaenenliste:
    "01":
