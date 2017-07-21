@@ -1,11 +1,11 @@
 # Allgemeine Infrastruktur-Server 
 [common]
-buildserver ansible_ssh_host=137.74.232.49
+buildserver ansible_ssh_host=148.251.239.152
 monitoring  ansible_ssh_host=
 
 # Service-VM für Zentrale Dienste (Karte, Statistik)  
 [services]
-services    ansible_ssh_host=137.74.232.48
+services    ansible_ssh_host=148.251.239.155
 
 # Backbone Server 
 [backbone]
@@ -13,12 +13,12 @@ services    ansible_ssh_host=137.74.232.48
 [gateways]
 # Gateways mit oder ohne Direktanbindung FFRL
 # Immer mit Multidomänen-L2TP
-gw01	ansible_ssh_host=185.46.137.150
-gw02	ansible_ssh_host=5.9.16.220
+gw01	ansible_ssh_host=176.9.153.9
+gw02	ansible_ssh_host=5.9.168.249
 
 # Sonstige Server
 [firmware]
-firmware	ansible_ssh_host=137.74.232.49
+firmware	ansible_ssh_host=148.251.239.152
 
 #[ffel-arbeitsmittel]
 #work    ansible_ssh_host=5.9.16.217
