@@ -1,66 +1,66 @@
 # Globale Variablen für alle Server 
 domaenen:
   "01":
-    name: Recklinghausen/Herten
-    community: Emscherland
-    ffv4_network: 10.13.192.0/21
-    ffv6_network: 2a03:2260:200d:100::/64
+    name: Datteln
+    community: Ostvest
+    ffv4_network: 10.47.192.0/21
+    ffv6_network: 2a03:2260:200c:100::/64
     map_scale: 0.9
     firmware: domaene01/
     
   "02":
-    name: Gladbeck/Bottrop
-    community: Emscherland
-    ffv4_network: 10.13.200.0/21
-    ffv6_network: 2a03:2260:200d:200::/64
+    name: Waltrop
+    community: Ostvest
+    ffv4_network: 10.47.200.0/21
+    ffv6_network: 2a03:2260:200c:200::/64
     map_scale: 0.9
     firmware: domaene02/
     
   "03":
-    name: Dorsten/Marl  
-    community: Emscherland
-    ffv4_network: 10.13.208.0/21
-    ffv6_network: 2a03:2260:200d:300::/64
+    name: Oer-Erkenschwick  
+    community: Ostvest
+    ffv4_network: 10.47.208.0/21
+    ffv6_network: 2a03:2260:200c:300::/64
     map_scale: 0.9
     firmware: domaene03/
 
   "04":
-    name: Haltern am See/Raesfeld
-    community: Emscherland
-    ffv4_network: 10.13.216.0/21
-    ffv6_network: 2a03:2260:200d:400::/64
+    name: Castrop-Rauxel
+    community: Ostvest
+    ffv4_network: 10.47.216.0/21
+    ffv6_network: 2a03:2260:200c:400::/64
     map_scale: 0.9
     firmware: domaene04/
     
   "05":
-    name: Reserve
-    community: Emscherland
-    ffv4_network: 10.13.224.0/21
-    ffv6_network: 2a03:2260:200d:500::/64
+    name: Aussenposten
+    community: Ostvest
+    ffv4_network: 10.47.224.0/21
+    ffv6_network: 2a03:2260:200c:500::/64
     map_scale: 0.9
     firmware: domaene05/
     
   "06":
-    name: Reserve
-    community: Emscherland
-    ffv4_network: 10.13.232.0/21
-    ffv6_network: 2a03:2260:200d:600::/64
+    name: FastD-Domäne
+    community: Ostvest
+    ffv4_network: 10.47.232.0/21
+    ffv6_network: 2a03:2260:200c:600::/64
     map_scale: 0.9
     firmware: domaene05/
     
   "07":
     name: Reserve
-    community: Emscherland
-    ffv4_network: 10.13.240.0/21
-    ffv6_network: 2a03:2260:200d:700::/64
+    community: Ostvest
+    ffv4_network: 10.47.240.0/21
+    ffv6_network: 2a03:2260:200c:700::/64
     map_scale: 0.9
     firmware: domaene05/
 
   "08":
     name: Spezialprojekte
-    community: Emscherland
-    ffv4_network: 10.13.248.0/21
-    ffv6_network: 2a03:2260:200d:800::/64
+    community: Ostvest
+    ffv4_network: 10.47.248.0/21
+    ffv6_network: 2a03:2260:200c:800::/64
     map_scale: 0.9
     firmware: domaene08/
 
@@ -87,11 +87,11 @@ dhcp_global:
 # Parameter für das eigene Freifunk-Netzwerk
 ff_network:
   # Eindeutige AS-Nummer des Netzwerk
-  as_number: 65402
+  as_number: 64862
   # IPv4 Adressraum
-  v4_network: 10.13.192.0/18
+  v4_network: 10.47.0.0/16
   # IPv6 adressraum
-  v6_network: 2a03:2260:200d::/48
+  v6_network: 2a03:2260:200c::/48
 
 hostname_suffix: ".servers.freifunk-emscherland.de"
 
@@ -119,11 +119,11 @@ logrotate:
   count: 3
   
 freifunk:
-  name: "Freifunk Emscherland"
-  kurzname: "ffel"
-  email: info@freifunk-emscherland.de
-  domain: freifunk-emscherland.de
+  name: "Freifunk Ostvest"
+  kurzname: "ffov"
+  email: info@freifunk-ostvest.de
+  domain: freifunk-ostvest.de
 
 bind_zonemaster:
-  server: service.freifunk-emscherland.de
-  email: info.freifunk-emscherland.de
+  server: service.freifunk-ostvest.de
+  email: info.freifunk-ostvest.de
