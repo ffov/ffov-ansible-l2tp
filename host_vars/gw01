@@ -46,11 +46,11 @@ domaenenliste:
       server_id: 2
    "02":
       dhcp_start: 10.47.200.1
-      dhcp_ende: 10.13.203.255
+      dhcp_ende: 10.47.203.255
       server_id: 2
    "03":
       dhcp_start: 10.47.208.1
-      dhcp_ende: 10.13.211.255
+      dhcp_ende: 10.47.211.255
       server_id: 2
    "04":
       dhcp_start: 10.47.216.1
