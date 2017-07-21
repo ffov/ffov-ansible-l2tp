@@ -93,12 +93,13 @@ ff_network:
   # IPv6 adressraum
   v6_network: 2a03:2260:200c::/48
 
-hostname_suffix: ".servers.freifunk-emscherland.de"
+hostname_suffix: ".servers.freifunk-ostvest.de"
 
 administratorenteam:
-  - "tobitx"
-  - "parad0x"
-  - "fungur"
+  - "duese"
+  - "zak"
+  - "greenman"
+  - "corny"
   - "mpw"
 
 
