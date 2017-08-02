@@ -1,1 +1,1 @@
-Dies ist die Ansible-Konfiguration für Freifunk-Emscherland.
+Dies ist die Ansible-Konfiguration für Freifunk-Ostvest.
