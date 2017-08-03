@@ -1,6 +1,8 @@
 ---
 - hosts: gateways
   remote_user: root
+  vars_files:
+    - passwords.yml
   roles:
     - { role: hostname, tags: "hostname"}
     - { role: common, tags: "common"}

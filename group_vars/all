@@ -101,6 +101,7 @@ administratorenteam:
   - "greenman"
   - "corny"
   - "mpw"
+  - "ffov"
 
 
 collectd:
@@ -122,6 +123,7 @@ logrotate:
 freifunk:
   name: "Freifunk Ostvest"
   kurzname: "ffov"
+  search_domain: "ffov"
   email: info@freifunk-ostvest.de
   domain: freifunk-ostvest.de
 
