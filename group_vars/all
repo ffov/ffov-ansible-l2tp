@@ -138,7 +138,7 @@ collectd:
 bind:                  
   ffms_zone_type: slave
   ffms_zone_masters:   
-    - 137.74.232.48
+    - 148.251.239.155
 
 logrotate:
   cycle: daily
