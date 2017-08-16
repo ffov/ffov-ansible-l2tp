@@ -5,7 +5,7 @@
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
 vm_id: 3
 server_id: 3
-server_besitzer: "TobiTX / vmware Hetzner"
+server_besitzer: "Freifunk Ostvest e.V. Blech02"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
 # Nur für Backbone-Server notwendig  
