@@ -33,34 +33,34 @@ ffrl_tun:
 
 domaenenliste:
    "01":
-      dhcp_start: 10.47.192.26
-      dhcp_ende: 10.47.195.255
-      server_id: 2
+      dhcp_start: 10.47.196.1
+      dhcp_ende: 10.47.197.255
+      server_id: 4
    "02":
-      dhcp_start: 10.47.200.26
-      dhcp_ende: 10.47.203.255
-      server_id: 2
+      dhcp_start: 10.47.204.1
+      dhcp_ende: 10.47.205.255
+      server_id: 4
    "03":
-      dhcp_start: 10.47.208.26
-      dhcp_ende: 10.47.211.255
-      server_id: 2
+      dhcp_start: 10.47.212.1
+      dhcp_ende: 10.47.213.255
+      server_id: 4
    "04":
-      dhcp_start: 10.47.216.26
-      dhcp_ende: 10.47.219.255
-      server_id: 2
+      dhcp_start: 10.47.220.1
+      dhcp_ende: 10.47.221.255
+      server_id: 4
    "05":
-      dhcp_start: 10.47.224.26
-      dhcp_ende: 10.47.227.255
-      server_id: 2
+      dhcp_start: 10.47.228.1
+      dhcp_ende: 10.47.229.255
+      server_id: 4
    "06":
-      dhcp_start: 10.47.232.26
-      dhcp_ende: 10.47.235.255
-      server_id: 2
+      dhcp_start: 10.47.236.1
+      dhcp_ende: 10.47.237.255
+      server_id: 4
    "07":
-      dhcp_start: 10.47.240.26
-      dhcp_ende: 10.47.243.255
-      server_id: 2
+      dhcp_start: 10.47.244.1
+      dhcp_ende: 10.47.245.255
+      server_id: 4
    "08":
-      dhcp_start: 10.47.248.26
-      dhcp_ende: 10.47.251.255
-      server_id: 2
+      dhcp_start: 10.47.252.1
+      dhcp_ende: 10.47.253.255
+      server_id: 4
