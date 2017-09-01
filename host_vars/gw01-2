@@ -42,7 +42,7 @@ ffrl_tun:
 domaenenliste:
    "01":
       dhcp_start: 10.47.194.1
-      dhcp_ende: 10.47.196.254
+      dhcp_ende: 10.47.195.254
       server_id: 3
    "02":
       dhcp_start: 10.47.202.1
