@@ -3,8 +3,8 @@
 
 # ID des Servers. 
 # Hieraus wird die IP-Adresse innerhalb des Freifunk Netzwerkes gebildet.
-vm_id: 3
-server_id: 3
+vm_id: 5
+server_id: 5
 server_besitzer: "Freifunk Ostvest e.V. Blech02"
 
 # IPv4 Adresse auf die der Datenverkehr per NAT umgestezt wird
