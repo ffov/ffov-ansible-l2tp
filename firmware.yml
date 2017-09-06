@@ -1,8 +1,0 @@
----
- - hosts: firmwareserver
-   remote_user: root
-   roles:
-    - { role: hostname, tags: "hostname"}
-    - { role: common, tags: "common"}
-    - { role: motd, tags: "motd"}
-    - { role: firmware_nginx, tags: "firmware_nginx"}
